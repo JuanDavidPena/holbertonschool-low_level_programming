@@ -15,6 +15,9 @@ if (i < 9)
 putchar(',');
 putchar(' ');
 }
+else
+{continue;
+}
 }
 putchar('\n');
 return (0);
