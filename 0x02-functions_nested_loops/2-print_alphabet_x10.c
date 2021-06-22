@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_alphabet_x10-prints alphabet in lc 10 times, followed by a new line.
+ * print_alphabet_x10-prints alphabet in lc x10 times, followed by a new line.
  */
 void print_alphabet_x10(void)
 {
