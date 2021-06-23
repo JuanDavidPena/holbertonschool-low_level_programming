@@ -17,5 +17,5 @@ int print_last_digit(int x)
 	}
 	e = '0' + y;
 	_putchar(e);
-	return (0);
+	return (y);
 }
