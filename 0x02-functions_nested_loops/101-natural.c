@@ -8,24 +8,24 @@
 
 int main(void)
 {
-  unsigned long int sum;
-  int i;
+unsigned long int sum;
+int i;
 
-  sum = 0;
+sum = 0;
 
-  for (i = 0; i < 1024; ++i)
-    {
-      if ((i % 3) == 0)
-	{
-	  sum = sum + i;
-	  continue;
-	} else if ((i % 5) == 0)
-	{
-	  sum = sum + i;
-	  continue;
-	}
-    }
-
-  printf("%lu\n", sum);
-  return (0);
+for (i = 0; i < 1024; ++i)
+{
+if ((i % 3) == 0)
+{
+sum = sum + i;
+continue;
+}
+else if ((i % 5) == 0)
+{
+sum = sum + i;
+continue;
+}
+}
+printf("%lu\n", sum);
+return (0);
 }
