@@ -3,7 +3,7 @@
 /**
  * print_last_digit - display last digit.
  * @x:integer.
- * return: always 0
+ * Return: always 0.
  */
 
 int print_last_digit(int x)

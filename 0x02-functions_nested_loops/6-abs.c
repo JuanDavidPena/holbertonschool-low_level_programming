@@ -3,7 +3,7 @@
 /**
  * _abs - returns abs of int .
  * @x: integer.
- * return: abs value.
+ * Return: abs value.
  */
 
 int _abs(int x)
