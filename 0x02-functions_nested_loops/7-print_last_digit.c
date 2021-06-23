@@ -3,6 +3,7 @@
 /**
  * print_last_digit - display last digit.
  * @x:integer.
+ * return: always 0
  */
 
 int print_last_digit(int x)
@@ -16,5 +17,5 @@ int print_last_digit(int x)
 	}
 	e = '0' + y;
 	_putchar(e);
-	return (y);
+	return (0);
 }
