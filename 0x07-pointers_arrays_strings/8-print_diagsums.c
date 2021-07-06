@@ -7,7 +7,7 @@
  * @size:int size
  * Return:void
  */
- 
+
 void print_diagsums(int *a, int size)
 {
 	int i, s1 = 0, s2 = 0;
