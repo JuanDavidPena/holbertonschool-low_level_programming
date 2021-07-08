@@ -15,6 +15,12 @@ int main(int argc, char *argv[])
 {
 	int num, digit, sum = 0;
 
+	if (argc == 1)
+	{
+		printf("%d\n", sum);
+		return (0);
+	}
+
 	for (num = 1; num < argc; num++)
 	{
 		for (digit = 0; argv[num][digit]; digit++)
