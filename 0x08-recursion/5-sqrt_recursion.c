@@ -11,7 +11,7 @@
 int check(int raiz, int n)
 {
 	if (raiz * raiz == n)
-		return (a);
+		return (raiz);
 	if (raiz * raiz > n)
 		return (-1);
 	return (check(raiz + 1, n));
