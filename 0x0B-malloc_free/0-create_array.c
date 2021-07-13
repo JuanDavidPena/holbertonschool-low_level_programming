@@ -27,5 +27,7 @@ char *create_array(unsigned int size, char c)
 	{
 		x[i] = c;
 	}
+
+	x[i] = '\0';
 	return (x);
 }
