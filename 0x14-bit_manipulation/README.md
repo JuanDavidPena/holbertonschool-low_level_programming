@@ -1,2 +1,2 @@
 ## 0x14-bit_manipulation
-    :D
+    this time we will start working with bits :D
