@@ -34,8 +34,8 @@ def island_perimeter(grid):
         visit.add((i, j))
         perim = dfs(i, j + 1)
         perim += dfs(i + 1, j)
-        perim += dfs(i - 1, j)
         perim += dfs(i, j - 1)
+        perim += dfs(i - 1, j)
         return perim
 
     for i in range(len(grid)):
