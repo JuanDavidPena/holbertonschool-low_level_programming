@@ -43,4 +43,3 @@ def island_perimeter(grid):
             if grid[i][j] == 1:
                 return dfs(i, j)
     return 0
-
